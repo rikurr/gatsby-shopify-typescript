@@ -1,6 +1,6 @@
 import React from "react"
 export default {
-  title: "Dashboard/header",
+  title: "Components/header",
 }
 export const exampleStory = () => (
   <div style={{ padding: "16px", backgroundColor: "#eeeeee" }}>
