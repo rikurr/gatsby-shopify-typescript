@@ -602,7 +602,7 @@ export const GlobalStyles = css`
     text-decoration: none;
     color: #fff;
   }
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 768) {
     html {
       font-size: 100%;
     }

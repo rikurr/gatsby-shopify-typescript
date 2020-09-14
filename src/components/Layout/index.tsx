@@ -11,11 +11,11 @@ import { Global } from '@emotion/core'
 import styled from '@emotion/styled'
 import { ThemeProvider } from 'emotion-theming'
 
-import { SiteTitleQuery } from '../../types/graphql-types'
-import { Header } from './header'
-import { GlobalStyles } from '../styles/global-styles'
-import { Footer } from './footer'
-import { theme } from '../styles/theme'
+import { SiteTitleQuery } from '../../../types/graphql-types'
+import { Header } from '../Header'
+import { GlobalStyles } from '../../utils/styles/global-styles'
+import { Footer } from '../Footer'
+import { theme } from '../../utils/styles/theme'
 
 export const Layout: React.FC = ({ children }) => {
   const data = useStaticQuery<SiteTitleQuery>(graphql`

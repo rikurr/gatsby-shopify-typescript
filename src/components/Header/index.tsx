@@ -1,6 +1,6 @@
 import { Link } from 'gatsby'
 import React from 'react'
-import styled from '../styles/theme'
+import styled from '../../utils/styles/theme'
 
 type Props = {
   siteTitle?: string
@@ -17,7 +17,7 @@ export const Header: React.FC<Props> = ({ siteTitle }) => (
 )
 
 const HeaderWrap = styled.header`
-  background: ${p => p.theme.color.primary};
+  background: ${p => p.theme.palette.primary.main};
 `
 
 const HeaderInner = styled.div`
